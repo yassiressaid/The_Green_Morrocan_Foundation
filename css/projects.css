@@ -1,0 +1,70 @@
+.body{
+    width: 100%;
+}
+
+.main-content{
+    width: 100%;
+}
+.main-content img{
+    width: 704px;
+    height: 257px;
+}
+.prjcts{
+    text-align: center;
+}
+.prjcts a{
+    float: left;
+    margin: 23px;
+}
+.prjcts p{
+    padding: 20px;
+}
+.projects{
+    float: left;
+    width: 60%;
+    padding: 13px;
+    position: relative;
+    top: 82px;
+    background-color: #9b99993b;
+    margin: 5px;
+    border-radius: 16px;
+
+}
+/* //////////////////////////////////asid-bar//////////////////////////// */
+.side-bar{
+    text-align: center;
+    float: left;
+    width: 35%;
+    position: relative;
+    top: 77px;
+    background-color: #9b99993b;
+    margin: 10px;
+    border-radius: 16px;
+
+}
+.side-bar p{
+    padding: 30px;
+}
+.side-bar h1{
+    margin: 20px;
+}
+.prjcts  .but-link {
+    border: none;
+    background: #0eca0e;
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+    font-size: .8rem;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+  }
+  .prjcts .but-link:hover{
+      background-color: #23e629;
+      color: white;
+  } 
+
+  .ftr{
+    position: absolute;
+    top: 111rem;
+    width: 100%;
+  }
