@@ -1,0 +1,65 @@
+body{
+  background-color: #d8d8d8;
+}
+.container h2{
+  text-align: center;
+  color: #4CAF50;
+  margin-top: 20px;
+}
+.container p{
+  text-align: center;
+  margin-top: 20px;
+}
+/* Style the form element with a border around it */
+/* form {
+  border: 4px solid #f1f1f1;
+ padding: 2px;
+} */
+
+/* Add some padding and a grey background color to containers */
+.container  {
+  padding: 20px;
+  background-color: #f1f1f1;
+  position: relative;
+  top: 40px;
+  
+
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+  width: 50%;
+  padding: 12px;
+  margin: 8px 0;
+  margin-left: 350px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  width: 100px;
+  border-radius: 10px;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+  
+}
+label{
+  
+  margin-bottom: 20px;
+}
+.subscribe{
+  margin-left: 28%;
+}
