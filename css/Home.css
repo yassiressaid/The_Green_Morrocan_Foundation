@@ -192,3 +192,33 @@
     width: 114px;
     margin: 54px auto;
 }
+
+@media screen and (max-width:768px){
+    .top-container .box{
+        width: 96%;
+    }
+    .main-content{
+        position: relative;
+        top: 30px;
+        height: 13rem;
+    }
+    .bottom-container{
+        display: block;
+    }
+    .info{
+        display: grid;
+    margin: 29px;
+    text-align: center;
+    }
+    .info a{
+    padding-right: 0px;
+    color: black;
+    padding: 7px
+    }
+}
+
+@media  (max-width:1070px) and (min-width:920px){
+    .top-container .box{
+        width: 25%;
+    }
+}
