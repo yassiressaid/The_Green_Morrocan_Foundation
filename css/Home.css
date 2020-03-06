@@ -112,12 +112,14 @@
     position: relative;
     bottom: 140px;
     background-color: #53525217;
-    background-image: url(../images/istockphoto-1198645573-1024x1024.jpg);
+    background-image: linear-gradient(to right, rgb(46, 204, 113, .4), rgb(39, 174, 96, .4)), url(../images/istockphoto-1198645573-1024x1024.jpg);
     background-size: cover;
     background-position: left;
     background-attachment: fixed;
     height: 50vh;
 }
+
+
 .main-content{
     height: 30vh;
     width: 60%;
