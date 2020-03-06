@@ -14,7 +14,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     position: relative;
-    top: -162px;
+    top: -156px;
     
 }
 .top-container .box{
@@ -172,12 +172,13 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 59px;
+    padding: 25px;
 }
 
 .btm-container{
     position: relative;
     bottom: 88px;
-    background-color: #80808045;
+    background-color: #69666614;
     padding: 10px;
 }
 .btm-container img{
@@ -186,11 +187,19 @@
 }
 .btm-container h1{
     position: relative;
-    bottom:20px ;
+    bottom: 48px;
     text-align: center;
-    border-bottom: 2px solid;
-    width: 114px;
     margin: 54px auto;
+    font-size: 3rem;
+}
+.bottom-container div {
+    background-color: #8080801a;
+    padding: 14px;
+    border-radius: 27px;
+    box-shadow: 0 0px 8px grey;
+}
+.bottom-container h2{
+    padding: 10px;
 }
 
 @media screen and (max-width:768px){
@@ -214,6 +223,9 @@
     padding-right: 0px;
     color: black;
     padding: 7px
+    }
+    .bottom-container div{
+        margin: 15px;
     }
 }
 
