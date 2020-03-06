@@ -56,10 +56,27 @@ input[type=submit]:hover {
   opacity: 0.8;
   
 }
-label{
+
   
-  margin-bottom: 20px;
-}
+ 
 .subscribe{
   margin-left: 28%;
+  margin-bottom: 20px;
 }
+/* .footer2{
+  display: block;
+  background:  #efefc8;
+  position: relative;
+  top: 130px;
+ padding: 30px;
+}
+.social-media2 img{
+  width: 30px;
+  margin-left: 10px;
+}
+.social-media2{
+  margin-left: 490px;
+  position: relative;
+  top: -1rem;
+} */
+
