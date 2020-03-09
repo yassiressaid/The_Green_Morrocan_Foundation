@@ -1,19 +1,21 @@
 .container_imgs1{
-    width: 100%;
+    width: 85%;
     top: 75px;
     position: relative;
-    overflow: hidden;
-}
-.container_imgs{
+    /* overflow: hidden; */
+    margin: 0 auto;
+  }
+  .container_imgs{
     display: grid;
-    grid-template-columns:repeat(4,1fr);
-    grid-gap: 59px;
-}
-.imgs_art{
+    grid-template-columns:repeat(3,1fr);
+    grid-gap: 27px;
+  }
+  .imgs_art{
     text-align: center;
     background: #b8b4b46e;
     padding: 16px;
     border-radius: 8px;
+    box-shadow: grey 0 2px 8px;
 }
 
 
@@ -27,7 +29,5 @@
 
 
   .ftr{
-    position: relative;
-    top: 111rem;
-    width: 100%;
+    margin-top: 99px;
   }

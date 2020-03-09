@@ -3,10 +3,11 @@
     position: relative;
     z-index: -1;
     top: -4px;
-    background-image: url(../images/istockphoto-660541120-1024x1024.jpg);
+    background-image:url(../images/background\ \(1\).jpg);
     width: 100%;
     height: 60vh;
     background-size: cover;
+    background-position: center;
 }
  /* //////////////////////////////////////top.container////////////////////// */
 .top-container{
@@ -90,7 +91,9 @@
     font-size: 20px;
     margin: 10px 0;
     padding: 0;
+    font-family: sans-serif;
 }
+
 .top-container .box .content p{
     margin: 0;
     padding: 0;
@@ -110,9 +113,9 @@
 .main-container{
     width: 100%;
     position: relative;
-    bottom: 140px;
+    bottom: 101px;
     background-color: #53525217;
-    background-image: linear-gradient(to right, rgb(46, 204, 113, .4), rgb(39, 174, 96, .4)), url(../images/istockphoto-1198645573-1024x1024.jpg);
+    background-image: linear-gradient(to right, rgb(46, 204, 113, .4), rgb(39, 174, 96, .4)), url(../images/995701.jpg);
     background-size: cover;
     background-position: left;
     background-attachment: fixed;
@@ -127,18 +130,11 @@
     margin: 0px auto;
     position: relative;
     top: 60px;
-    background-image: linear-gradient(137deg, 
-                   #ccc 0%,
-                   #ececec 57%,
-                   #9b9999ad  50% ), url(../images/istockphoto-1198645573-1024x1024.jpg);
+    background-image: linear-gradient(137deg, #ccc 0%, #ececec99 57%, #9b99994d 50% ), url(../images/imghome.jpg);
     background-position: left;
     box-shadow: 0 5px 12px rgba(0, 0, 0, 0.25);
 }
 
-/* .main-content::after{
-    content: "";
-    background-color: blanchedalmond;
-} */
 .cont{
     width: 43%;
     float: left;
@@ -179,7 +175,7 @@
 
 .btm-container{
     position: relative;
-    bottom: 88px;
+    bottom: 39px;
     background-color: #69666614;
     padding: 10px;
 }
@@ -188,21 +184,20 @@
 
 }
 .btm-container h1{
-    position: relative;
-    bottom: 48px;
     text-align: center;
-    margin: 54px auto;
+    margin: 31px auto;
     font-size: 3rem;
+    font-family: sans-serif;
 }
 .bottom-container div {
     background-color: #8080801a;
     padding: 14px;
     border-radius: 27px;
-    box-shadow: 0 0px 8px grey;
+    border: 2px solid gray;
+    
 }
-.bottom-container h2{
-    padding: 10px;
-}
+.bottom-container div:hover{box-shadow: 0 0px 8px grey;}
+.bottom-container h2{ padding: 10px;}
 
 @media screen and (max-width:768px){
     .top-container .box{
@@ -235,4 +230,8 @@
     .top-container .box{
         width: 25%;
     }
+}
+
+.footer{
+    margin-top: -74px;
 }
