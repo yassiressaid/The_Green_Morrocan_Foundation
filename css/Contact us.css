@@ -2,20 +2,24 @@
 body{
   background: #d8d8d8;
   width: 100%;
+  background-image: url(https://i.f1g.fr/media/madame/orig/sites/default/files/img/2019/12/planete-nature.jpg);
+  background-repeat: no-repeat;
 }
 
 .wrapper{
   position: relative;
-  margin-bottom: 235px;
-  top: 100px;
-  left: 35%;
-  right: 45%;
-  max-width: 350px;
+  margin-bottom: 350px;
+  top: 200px;
+  left: 26%;
+ 
+  max-width: 550px;
+  max-height: 800px;
   width: 100%;
   background: #fff;
   padding: 25px;
   border-radius: 5px;
   box-shadow: 4px 4px 2px #009432; 
+  height: 360px;
 }
 
 .wrapper h2{
@@ -47,7 +51,7 @@ body{
   margin-top: 15px;
   padding: 10px;
   text-align: center;
-  width: 100%;
+  width: 25%;
   background: #009432;
   color: #332902;
   text-transform: uppercase;
@@ -55,6 +59,9 @@ body{
   font-weight: bold;
   border-radius: 25px;
   cursor: pointer;
+  
+  
+  
 }
 
 #error_message{
@@ -64,4 +71,11 @@ body{
   text-align: center;
   font-size: 14px;
   transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 600px) {
+   .wra {
+    width: 100%;
+    margin-top: 0;
+  }
 }

@@ -1,6 +1,8 @@
 body{
-  background-color: #d8d8d8;
+background-color: white;
+  
 }
+
 .container h2{
   text-align: center;
   color: #4CAF50;
@@ -18,10 +20,16 @@ body{
 
 /* Add some padding and a grey background color to containers */
 .container  {
-  padding: 20px;
-  background-color: #f1f1f1;
+  padding: 120px;
+  width: 81%;
+  height: 100%;
+  background-image: url(https://i.f1g.fr/media/madame/orig/sites/default/files/img/2019/12/planete-nature.jpg);
+  background-repeat: no-repeat;
   position: relative;
-  top: 40px;
+  top: 0px;
+  margin: 0 auto;
+
+  
   
 
 }
@@ -63,20 +71,7 @@ input[type=submit]:hover {
   margin-left: 28%;
   margin-bottom: 20px;
 }
-/* .footer2{
-  display: block;
-  background:  #efefc8;
-  position: relative;
-  top: 130px;
- padding: 30px;
-}
-.social-media2 img{
-  width: 30px;
-  margin-left: 10px;
-}
-.social-media2{
-  margin-left: 490px;
-  position: relative;
-  top: -1rem;
-} */
 
+.container1 .container2 .container3{
+
+}

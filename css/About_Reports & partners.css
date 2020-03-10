@@ -1,10 +1,10 @@
 body{
-    background-color: #d8d8d8;
+    background-color: white;
 }
 
 
 .grid-container {
-    margin: 0 auto;
+   margin: 0 auto;
     width: 93%;
     display: grid;
    grid-template-columns: repeat(3, 1fr);
@@ -104,3 +104,22 @@ nav{
 #logo{
     height: 5px;
 }
+@media (max-width: 700px){
+
+.grid-container{
+    --auto-grid-min-size: 16rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+  grid-gap: 1rem;
+}
+.grid-container2{
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+      "advert header"
+      "advert content"
+      "advert footer";
+}
+
+}
+    

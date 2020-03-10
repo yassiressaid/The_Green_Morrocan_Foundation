@@ -14,7 +14,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     position: relative;
-    top: -162px;
+    top: -156px;
     
 }
 .top-container .box{
@@ -112,8 +112,14 @@
     position: relative;
     bottom: 140px;
     background-color: #53525217;
+    background-image: linear-gradient(to right, rgb(46, 204, 113, .4), rgb(39, 174, 96, .4)), url(../images/istockphoto-1198645573-1024x1024.jpg);
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
     height: 50vh;
 }
+
+
 .main-content{
     height: 30vh;
     width: 60%;
@@ -129,11 +135,10 @@
     box-shadow: 0 5px 12px rgba(0, 0, 0, 0.25);
 }
 
-.main-content::after{
+/* .main-content::after{
     content: "";
-    display: table;
-    clear: both;
-}
+    background-color: blanchedalmond;
+} */
 .cont{
     width: 43%;
     float: left;
@@ -169,12 +174,13 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 59px;
+    padding: 25px;
 }
 
 .btm-container{
     position: relative;
     bottom: 88px;
-    background-color: #80808045;
+    background-color: #69666614;
     padding: 10px;
 }
 .btm-container img{
@@ -183,11 +189,10 @@
 }
 .btm-container h1{
     position: relative;
-    bottom:20px ;
+    bottom: 48px;
     text-align: center;
-    border-bottom: 2px solid;
-    width: 114px;
     margin: 54px auto;
+    font-size: 3rem;
 }
 /* //////////////////////////////////////footer////////////////////// */
 .footer{
@@ -199,21 +204,42 @@
     display: flex;
     justify-content: center;
 }
-.social-media a{
-    padding-right: 33px;
+.bottom-container h2{
+    padding: 10px;
 }
 
-.social-media a img{width: 40px;}
-.info a img{width: 20px;}
-.info{
-    display: flex;
-    justify-content: center;
+@media screen and (max-width:768px){
+    .top-container .box{
+        width: 96%;
+    }
+    .main-content{
+        position: relative;
+        top: 30px;
+        height: 13rem;
+    }
+    .bottom-container{
+        display: block;
+    }
+    .info{
+        display: grid;
     margin: 29px;
-}
-.info a{
-    padding-right: 100px;
+    text-align: center;
+    }
+    .info a{
+    padding-right: 0px;
     color: black;
+    padding: 7px
+    }
+    .bottom-container div{
+        margin: 15px;
+    }
 }
 .copyright{
     text-align: center;
 } 
+
+@media  (max-width:1070px) and (min-width:920px){
+    .top-container .box{
+        width: 25%;
+    }
+}

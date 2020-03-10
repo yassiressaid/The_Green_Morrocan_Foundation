@@ -1,0 +1,33 @@
+.container_imgs1{
+    width: 100%;
+    top: 75px;
+    position: relative;
+    overflow: hidden;
+}
+.container_imgs{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-gap: 59px;
+}
+.imgs_art{
+    text-align: center;
+    background: #b8b4b46e;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+/* //////////////////////////////////asid-bar//////////////////////////// */
+
+
+  .ftr{
+    position: relative;
+    top: 111rem;
+    width: 100%;
+  }
