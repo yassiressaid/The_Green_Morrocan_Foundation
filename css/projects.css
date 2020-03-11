@@ -25,6 +25,9 @@
   flex-wrap: wrap;
   min-height: 100vh;
   font-family: 'Poppins', sans-serif;
+  position: relative;
+    top: 26px;
+
 }
 
 /* .container{
@@ -36,11 +39,11 @@
 
 .box{
   position: relative;
-  width: 300px;
-  height: 400px;
+  width: 247px;
+  height: 294px;
   background: #000;
   margin-top: 33px;
-  /* box-shadow: 0 30px 30px rgba(0,0,0,.5); */
+   /* box-shadow: 0 30px 30px rgba(0,0,0,.5); */
 }
 
 .box .imgBx{
