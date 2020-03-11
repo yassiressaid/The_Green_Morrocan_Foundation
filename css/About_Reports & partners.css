@@ -144,12 +144,12 @@ nav{
             transform: scale(1);
             -webkit-transition: .3s ease-in-out;
             transition: .3s ease-in-out;
-        }
+    }
         .grid-container2:hover img {
             -webkit-transform: scale(1.3);
             transform: scale(1.3);
         }
-    }
+    
     @media (max-width: 800px){
 
         .grid-container{
@@ -176,5 +176,6 @@ nav{
             .grid-container {
                 margin-left: 6em;
             }
+        }
            
     

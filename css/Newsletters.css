@@ -76,6 +76,17 @@ input[type=submit]:hover {
   margin-left: 28%;
   margin-bottom: 20px;
 }
+@media screen and (max-width:800px){
+  .subscribe{
+    margin-left: 42%;
+  }
+  .container2{
+    margin-left: -180px;
+  }
+.container3{
+  margin-left: -16px;
+}
+}
 @media (min-width: 500px) and (max-width: 765px) {
   input[type=text], input[type=submit] {
     width: 77%;
@@ -87,4 +98,5 @@ input[type=submit]:hover {
   right:  47px;
  }
 }
+
 

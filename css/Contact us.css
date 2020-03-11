@@ -73,3 +73,15 @@ body{
   transition: all 0.5s ease;
 }
 
+@media screen and (max-width:800px) {
+    .wrapper {
+        width: 60%;
+        left: 130px;
+
+    }
+}
+@media screen and (max-width:500px) {
+  .wrapper{
+    left: 70px;
+  }
+}
