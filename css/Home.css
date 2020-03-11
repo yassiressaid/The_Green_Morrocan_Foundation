@@ -188,6 +188,18 @@
     font-size: 3rem;
     font-family: sans-serif;
 }
+/* //////////////////////////////////////footer////////////////////// */
+.footer{
+    background: #efefc8;
+    padding: 28px;
+    /* margin-top: -41px; */
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+.bottom-container h2{
+    padding: 10px;
 .bottom-container div {
     background-color: #8080801a;
     padding: 14px;
@@ -224,6 +236,9 @@
         margin: 15px;
     }
 }
+.copyright{
+    text-align: center;
+} 
 
 @media  (max-width:1070px) and (min-width:920px){
     .top-container .box{
