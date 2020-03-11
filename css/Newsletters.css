@@ -7,10 +7,12 @@ background-color: white;
   text-align: center;
   color: #4CAF50;
   margin-top: 20px;
+  margin-right: 20px;
 }
 .container p{
   text-align: center;
   margin-top: 20px;
+  margin-right: 25px;
 }
 /* Style the form element with a border around it */
 /* form {
@@ -21,12 +23,12 @@ background-color: white;
 /* Add some padding and a grey background color to containers */
 .container  {
   padding: 120px;
-  width: 81%;
-  height: 100%;
+  width: 84%;
+  height: 1;
   background-image: url(https://i.f1g.fr/media/madame/orig/sites/default/files/img/2019/12/planete-nature.jpg);
   background-repeat: no-repeat;
   position: relative;
-  top: 0px;
+  top: 30px;
   margin: 0 auto;
 
   
@@ -39,7 +41,7 @@ input[type=text], input[type=submit] {
   width: 50%;
   padding: 12px;
   margin: 8px 0;
-  margin-left: 350px;
+  margin-left: 299px;
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
@@ -49,7 +51,10 @@ input[type=text], input[type=submit] {
 /* Add margins to the checkbox */
 input[type=checkbox] {
   margin-top: 16px;
+  margin-left: -50px;
+  
 }
+
 
 /* Style the submit button */
 input[type=submit] {
@@ -71,7 +76,15 @@ input[type=submit]:hover {
   margin-left: 28%;
   margin-bottom: 20px;
 }
+@media (min-width: 500px) and (max-width: 765px) {
+  input[type=text], input[type=submit] {
+    width: 77%;
+    margin-left: 34px;
+    
 
-.container1 .container2 .container3{
-
+ }
+ .container{
+  right:  47px;
+ }
 }
+
