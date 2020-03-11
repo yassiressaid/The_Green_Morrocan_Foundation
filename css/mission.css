@@ -17,6 +17,10 @@ body {
     margin-top: -5px;
     margin-bottom: 20px;
 }
+.header h3 {
+    color: white;
+    margin-top: 50px;
+}
 /* Section 1 */
 .section1 {
 /*    width: 1200px;*/
@@ -24,7 +28,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    z-index: 2;
+/*    z-index: 2;*/
     margin-bottom: 20px;
 }
 
@@ -36,7 +40,7 @@ body {
     background: #fff;
     overflow: hidden;
     transition: 0.5s;
-    z-index: 2;
+/*    z-index: 2;*/
     box-sizing: border-box;
     padding: 30px;
     box-shadow: -10px 10px 25px rgba(0,0,0,.2);
@@ -165,8 +169,11 @@ body {
     }
 }
 
-@media screen and (max-width:600px){    nav {
-        width: 95.9%;
+@media screen and (max-width:600px){   
+    .section1 .box {
+        width: 85%;
+        margin: 0 auto;
+        margin-bottom: 10px;
     }
     .section2 {
         display: block;
