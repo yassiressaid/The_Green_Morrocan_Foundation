@@ -136,9 +136,8 @@ footer{
 .footer{
   background: #efefc8;
   padding: 28px;
-  /* margin-top: -41px; */
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
   margin-left: 51px;
   margin-top: 26px;
   padding: 15px;
