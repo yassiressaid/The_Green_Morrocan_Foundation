@@ -10,6 +10,14 @@
     -o-background-size: cover;
   }
   /* ///////////////////////////top-container///////////////////////////////////// */
+  .akr{
+      padding-top:100px;
+  }
+  .akr h2{
+      text-align: center;
+      font-size: 50pt;
+      color: rgb(28, 167, 23);
+  }
   .images
 {
     overflow: hidden;
@@ -55,4 +63,12 @@
      grid-template-columns: repeat(2,5fr);
      text-align: justify;
      text-align-last: center;
+ }
+ .kho{
+     padding-top: 150px;
+ }
+ .kho h2{
+     text-align: center;
+     font-size: 50pt;
+     color: rgb(25, 160, 32);
  }
