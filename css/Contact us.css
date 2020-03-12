@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+body{
+  background: #d8d8d8;
+  width: 100%;
+  background-image: url(https://i.f1g.fr/media/madame/orig/sites/default/files/img/2019/12/planete-nature.jpg);
+  background-repeat: no-repeat;
+}
+
+.wrapper{
+  position: relative;
+  margin-bottom: 350px;
+  top: 200px;
+  left: 29%;
+ 
+  max-width: 550px;
+  max-height: 800px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px #009432; 
+  height: 360px;
+}
+
+.wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #009432;
+}
+
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 25%;
+  background: #009432;
+  color: #332902;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  
+  
+  
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #f7070f;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+@media screen and (max-width:800px) {
+    .wrapper {
+        width: 60%;
+        left: 130px;
+
+    }
+}
+@media screen and (max-width:500px) {
+  .wrapper{
+    left: 70px;
+  }
+}
