@@ -189,26 +189,27 @@
     font-family: sans-serif;
 }
 /* //////////////////////////////////////footer////////////////////// */
-.footer{
+/* .footer{
     background: #efefc8;
     padding: 28px;
-    /* margin-top: -41px; */
+    margin-top: -41px;
 }
 .social-media{
     display: flex;
     justify-content: center;
-}
+} */
 .bottom-container h2{
     padding: 10px;
 }
 .bottom-container div {
-    background-color: #8080801a;
     padding: 14px;
     border-radius: 27px;
-    border: 2px solid gray;
     
 }
-.bottom-container div:hover{box-shadow: 0 0px 8px grey;}
+.bottom-container div:hover{
+    background-color: #8080801a;
+    border: 2px solid gray;
+    box-shadow: 0 0px 8px grey;}
 .bottom-container h2{ padding: 10px;}
 
 @media screen and (max-width:768px){

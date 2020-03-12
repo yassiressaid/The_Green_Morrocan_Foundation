@@ -75,3 +75,7 @@
      font-size: 50pt;
      color: rgb(25, 160, 32);
  }
+ .ftr1{
+    position: relative;
+    top: 114px;
+ }
