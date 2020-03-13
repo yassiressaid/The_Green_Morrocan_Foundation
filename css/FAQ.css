@@ -1,21 +1,16 @@
 
 
-html{
-    font-family: 'Roboto', sans-serif;
-/*    font-size: 10px;*/
-/*    box-sizing: border-box;*/
-}
-
 .header {
+    font-family: 'Roboto', sans-serif;
   background-image:url(../images/photo-1459183885421-5cc683b8dbba.jfif);    
   padding: 60px;
   text-align: center;
   color: white;
   font-size: 20px;
-    margin-top: -5px;
 }
 /*Section used for centering process*/
 .section1 {
+    font-family: 'Roboto', sans-serif;
     font-size: 10px;
     width: 100%;
     height: 100vh;

@@ -1,5 +1,5 @@
 
-html {
+.row {
   box-sizing: border-box;
 }
 
@@ -12,7 +12,6 @@ html {
   text-align: center;
   color: white;
   font-size: 30px;
-/*    margin-top: -5px;*/
     margin-bottom: 20px;
 }
 

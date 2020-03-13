@@ -1,8 +1,11 @@
 *{
+/*
     margin: 0;
     padding: 0;
-    font-family: "montserrat",sans-serif;
-    box-sizing: border-box;
+*/
+
+/*    font-family: "montserrat",sans-serif;*/
+/*    box-sizing: border-box;*/
 }
 .header {
   background-image:url(../images/photo-1459183885421-5cc683b8dbba.jfif);    
@@ -10,7 +13,6 @@
   text-align: center;
   color: white;
   font-size: 30px;
-    margin-top: -5px;
 }
 .header h3 {
     color: white;
@@ -19,9 +21,9 @@
 }
 
 .gallery-section{
-    width: 100%;
+    width: 90%;
     padding: 60px 0;
-/*    background: #f1f1f1;*/
+    margin: 0 auto;
 }
 
 .inner-width{
@@ -72,8 +74,15 @@
 }
 
 @media screen and (max-width:960px) {
+    .gallery-section{
+    width: 80%;
+    margin: 0 auto;
+}
     .gallery-section .image{
         flex: 33.33%;
+    }
+    .gallery-section .inner-width {
+        margin-left: -15px;
     }
 }
 

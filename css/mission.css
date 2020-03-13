@@ -3,8 +3,6 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-      
 }
 
 /* Header/Logo Title */
@@ -14,7 +12,6 @@ body {
   text-align: center;
   color: white;
   font-size: 30px;
-    margin-top: -5px;
     margin-bottom: 20px;
 }
 .header h3 {
@@ -34,11 +31,11 @@ body {
 
 .section1 .box {
     text-align: center;
-    position: relative;
+/*    position: relative;*/
     width: 600px;
     height: 200px;
     background: #fff;
-    overflow: hidden;
+/*    overflow: hidden;*/
     transition: 0.5s;
 /*    z-index: 2;*/
     box-sizing: border-box;
@@ -73,30 +70,23 @@ body {
     margin-right: 40px;
 }
 
-/*
-.section2 .image1 {
-    width: 10%;
-}
-.section2 .image2 {
-    width: 5%;
-}
-*/
 .section2 .myButton {
     margin-top: 10px;
-	background-color:#44c767;
+	background-color:#0eca0e;
 	border-radius:28px;
 	border:1px solid #18ab29;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
+	color:#000; 
 	font-family:Arial;
-	font-size:17px;
+	font-size:13px;
 	padding:16px 31px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #2f6627;
 }
 .myButton:hover {
-	background-color:#5cbf2a;
+	background-color:#23e629;
+    color: #fff;
 }
 /*
 .myButton:active {
@@ -166,6 +156,13 @@ body {
 @media screen and (max-width: 800px) {
     .strategy {
         width: 50%;
+    }
+    .section3 .History_content {
+        display: block;
+    }
+    .section3 img{
+        width: 70%;
+        margin-left: 14%;   
     }
 }
 
